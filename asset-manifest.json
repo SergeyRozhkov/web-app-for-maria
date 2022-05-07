@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/web-app-for-maria/static/css/main.073c9b0a.css",
+    "main.js": "/web-app-for-maria/static/js/main.fe7fa4fb.js",
+    "static/js/787.cf618c3f.chunk.js": "/web-app-for-maria/static/js/787.cf618c3f.chunk.js",
+    "static/media/main.png": "/web-app-for-maria/static/media/main.8d7a5058769c58656468.png",
+    "static/media/grandmother1.png": "/web-app-for-maria/static/media/grandmother1.0eb4926598cb9700c338.png",
+    "static/media/grandmother4.png": "/web-app-for-maria/static/media/grandmother4.c8326c52ea24957e12e9.png",
+    "static/media/grandmother3.png": "/web-app-for-maria/static/media/grandmother3.91f3ec1c1926c13237cd.png",
+    "static/media/grandmother2.png": "/web-app-for-maria/static/media/grandmother2.6e3ea6a11ca93c44f767.png",
+    "static/media/action1.png": "/web-app-for-maria/static/media/action1.5ba45be8537019d9a7a2.png",
+    "static/media/action2.png": "/web-app-for-maria/static/media/action2.dc34f9b42d2ec5ee6991.png",
+    "static/media/hero2.png": "/web-app-for-maria/static/media/hero2.6133fdad47607124c862.png",
+    "static/media/hero1.png": "/web-app-for-maria/static/media/hero1.71fa490e2535f30371d7.png",
+    "index.html": "/web-app-for-maria/index.html",
+    "main.073c9b0a.css.map": "/web-app-for-maria/static/css/main.073c9b0a.css.map",
+    "main.fe7fa4fb.js.map": "/web-app-for-maria/static/js/main.fe7fa4fb.js.map",
+    "787.cf618c3f.chunk.js.map": "/web-app-for-maria/static/js/787.cf618c3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fe7fa4fb.js"
+  ]
+}
