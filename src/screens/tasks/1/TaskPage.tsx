@@ -6,6 +6,7 @@ import Grandmother4 from './imgs/grandmother4.png';
 import {Box, Button, Typography} from "@mui/material";
 import {DragDropContext, Draggable, Droppable} from "react-beautiful-dnd";
 import immer from "immer";
+import BackButton from "../components/BackButton";
 
 const shadowRight = '5px 5px 30px 4px green'
 const shadowNotRight = '5px 5px 30px 4px red'
@@ -102,6 +103,7 @@ const TaskPage = () => {
 
   return (
     <Box height={'100%'} display={'flex'} justifyContent={"space-around"} pt={8}>
+      <BackButton/>
       <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} width={1200} minHeight={600}>
         <Box display={'flex'} flexDirection={'column'}>
           <Box>

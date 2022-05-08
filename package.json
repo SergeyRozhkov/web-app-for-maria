@@ -2,7 +2,7 @@
   "name": "maria-tasks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sergeyrozhkov.github.io",
+  "homepage": "https://sergeyrozhkov.github.io/web-app-for-maria/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",

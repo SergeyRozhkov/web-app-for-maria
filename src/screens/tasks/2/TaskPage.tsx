@@ -3,6 +3,7 @@ import {Box, Button, Typography} from "@mui/material";
 import immer from 'immer';
 import Hero1 from './imgs/hero1.png';
 import Hero2 from './imgs/hero2.png';
+import BackButton from "../components/BackButton";
 
 const bySplitTag = '@@';
 const text = `Э́тот персона́ж ма́ленького ро́ста.${bySplitTag} Он живёт в го́роде.${bySplitTag} У него́ есть друг.${bySplitTag} У э́того персона́жа больши́е у́ши.`;
@@ -49,6 +50,7 @@ const TaskPage = () => {
 
   return (
     <Box height={'100%'} display={'flex'} justifyContent={"space-around"} pt={8}>
+      <BackButton/>
       <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} width={1200} minHeight={500}>
         <Box display={'flex'} flexDirection={'column'}>
           <Box>

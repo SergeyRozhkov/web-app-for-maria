@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Box, Button, Typography} from "@mui/material";
 import immer from "immer";
+import BackButton from "../components/BackButton";
 
 const bySplitTag = '@@';
 const text = `У На́ди сего́дня день рожде́ния.${bySplitTag} У́тром На́дю поздра́вили роди́тели.${bySplitTag}
@@ -24,6 +25,7 @@ const TaskPage = () => {
 
   return (
     <Box height={'100%'} display={'flex'} justifyContent={"space-around"} pt={8}>
+      <BackButton/>
       <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} width={1200} minHeight={500}>
         <Box display={'flex'} flexDirection={'column'}>
           <Box>

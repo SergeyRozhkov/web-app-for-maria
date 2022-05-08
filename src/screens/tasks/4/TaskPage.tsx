@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Box, Typography} from "@mui/material";
 import immer from "immer";
 import Main from './imgs/main.png';
+import BackButton from "../components/BackButton";
 
 const bySplitTag = '@@';
 const text = `Наступи́ла золота́я о́сень.${bySplitTag} На не́бе ту́чи.${bySplitTag} Со все́х дере́вьев уже упа́ли ли́стья.${bySplitTag} О́ля и Са́ша пошли́ на прогу́лку.${bySplitTag} Ребя́та взя́ли с собо́й соба́ку До́ру.${bySplitTag} В лесу́ О́ля и Са́ша уви́дели бе́лку.${bySplitTag} На де́реве сиде́л дя́тел.${bySplitTag} Снегири́ уже́ прилете́ли.`;
@@ -18,6 +19,7 @@ const TaskPage = () => {
 
   return (
     <Box height={'100%'} display={'flex'} justifyContent={"space-around"} pt={8}>
+      <BackButton/>
       <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} width={1200} minHeight={500}>
         <Box display={'flex'} flexDirection={'column'}>
           <Box>

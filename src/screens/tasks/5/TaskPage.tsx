@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Box, Button, Typography} from "@mui/material";
 import Action1Img from './imgs/action1.png';
 import Action2Img from './imgs/action2.png';
+import BackButton from "../components/BackButton";
 
 
 const rightActionIndex = 1;
@@ -85,6 +86,7 @@ const TaskPage = () => {
 
   return (
     <Box height={'100%'} display={'flex'} justifyContent={"space-around"} pt={8}>
+      <BackButton/>
       <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} width={1200} minHeight={500}>
         <Box display={'flex'} flexDirection={'column'}>
           <Box>
